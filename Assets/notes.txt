@@ -1,0 +1,83 @@
+================ Movements (Skills)=== (Pokemons Actions in game world)
+pokemons no more have "moves", instead they have skills, wich can be aquired through hard training of certain "archetypes" of the desired movement or learned naturally by the physical attributes of the pokemon. Skill learnset is now based on the phormological attributes of the pokemon species
+
+Pokemon's "PP" (power points),an attribute of moves, has been reworked to be a real time resource for skill casting, much like "Mana to cast spells"
+
+The skill effectiveness can be improved by different ways: Objects, passive attributes, genetics, and training mastery (Alter or improve the skill Behaviour effects) (such as the support skill gems in PoE)
+
+Pokemon skills are learned and improved by training, this means repeating a move, perfect it and improve it. Everytime the pokemon uses a move or kill enemies with, it gain a small amount of experience of that move, a move has 15~ levels of mastery, each one impoving effects and power of it, when your move reaches enough level of experience you can try to improve it, with a chance of discovering a new skill with related mechanics in the process. The new skill starts at zero experience.
+
+The skills are composed by different "Archetypes", this controls the mechanics and the behaviour of the skill in game, and, in order to learn a new skill, a good amount experience of it's archetypes is required. Ex, skill "Earthquake" is a lvl 50 skill with the archetypes: ["Area of Effect", "Physical", "Attack"], this means, the pokemon who wants to learn this skill, must have a good amount of experience with area of effect and performing physical attacks. The great the amount of experience, the great the chance of learn it at the first attempts.
+
+a Skill composes at least of 2 archetypes which are ['ElementId','TargetId']. Additional archetypes are added as the skill behaviour and components require.
+
+archetypes categories are: Duration (Time), Area of effect, Projectile, Physical, Special, Contact (Melee), Channeled, Fire and forget, Element, Target, Status.
+
+Critical strike is an event where a normal attack deal increased damage. The chance to deal a critical strike can be increased by various factors such as Passives bonus, abilities, consumables, buffs and the skill base crit chance.
+
+Stun is a secondary status ailment that makes the pokemon unable to move or cast skills for a short time. Stun has a default duration that can be increased by passive tree bonus, abilities or skill secondary effects
+
+Pokemon "Movement Speed" stat based on the pokedex is now fixed to be Movement Speed in the game world.
+
+Pokemon skills have a level and type or genetic requirement to be learned. Ex, the skill "Metal Claw" requires a pokemon lvl 30, and can only be learned by pokemons of the type [Rock, Steel, Fight] or by pokemons who have "Claws", effectivity of the Skill will vary as the pokemon fullfill the skill requirements. Ex, a pokemon of the specie "Zangoose" is able to learn "Metal claw" skill as he have claws as 2a morphological attribute of the specie, but it's not of the type that wich "Metal claw" requires for an optimum efficiency, because of this and other factors, the skill might not reach peak performance. If the pokemon were of the species "Kabutops", as he passively meets all of the requirements, it is a suitable species to learn "Metal claw", it is most sure that the skill will have good performance with good training.
+
+
+====================  Abilities === (Passive Effect of choice* to further enhance pokemon playstyle and build)
+Pokemon Abilities are now the apex of a complex process of training and item quest search.
+
+Abilities will provide a powerful passive effect for the pokemon once it has been aquired.
+
+Many abilities can be available for a pokemon but only 1 can be learned. Ability pool that a pokemon can learn will match the pokemon phormological attributes. Ex, a pokemon of species "charmander" cannot aquire the ability "Iron Fist" because the specie doesn't have "Hands or Fist-like extremities", instead he can learn abilities related to "Fire", "Sun" or "reptile" attributes, such as "Blaze","Dry Skin" or "Cold Blooded".
+
+As skills,pokemon Ability pool will be determinated by pokemon morphological attributes.
+
+
+==================== Breeding/Genetics and training=== (Randomness, species traits, genetic variation and his effect on skills)
+The IV / EV System from the original games should and will be reworked, this are some ideas:
+
+Leveling system AKA "Training your pokemon" is the way to enhance your pokemon's combat abilities.
+
+when a pokemon kills an enemy it gains experience, when you reach the experience limit, the pokemon level up, gaining passive points to spend on his "skill tree" and enhance his abilities.
+
+The passive skill tree shows the morphological attributes of the pokemon and options to increase it's effectiveness at the cost of passive points AKA Perks.
+
+The evolution of a pokemon now it's not anymore an increase of stats to empower it in a generic way. Now evolution opens up new path's of customization, playstyle by altering the morphological attributes of the pokemon.
+
+IDEA: each time the Pokemon evolves can learn a new ability.
+
+OPTION*: the morphological attributes of pokemon are showed in tiers, a tier consist in a short range of values, the higher the tier the higher the values can hold
+
+=============== Game world (Areas, Biomes) ====
+The pokeARPG world takes place in a wide island non related to the main game lore world, it contains different biomes across locations, each one with his own ecosystem and hazards and it's not filled with random statues-like NPC who wants to fight in the middle of a dangerous jungle. 
+
+climates are an event that affects areas and combat. Climate events can happen randomly on areas or a lesser version of it can be summoned temporary to gain climate effects during combat.
+
+Climate also can be condition to trigger special events such as rare pokemon increased spawn chance or even as a boss fight requirement.
+
+=================== Mechanics === (Formulas)
+PokemonARPG is inspired from The original Pokemon Franchise as the main thematic of the game, Path of Exile as the playability and game gender, Spell Research Skyrim Mod from NexusMods as the skill learning and Archetypes System and last "Niche: Genetics Survival Game" to include genetics and phormological attributes of the pokemon species as a combat modifier and playstyle enhancer and of course to give the game wide customization capabilities.
+
+as a player (or trainer) you can only pick one pokemon as your partner to explore the game World. if player wants to switch pokemons has to go to a town's pokemon center and switch. if pokemon die through the story it die's forever. player is given one of the 3 starting species of "initial" pokemons, if the player initial dies before getting a second pokemon, can pick another initial at anytime and continue the game.
+
+Capturing pokemon is a Mid-End game feature that allows the player to capture a wild pokemon in the world. note that capture a pokemon is far more complicated and complex than the original series of Pokemon, you can't simply go through the wilds and throw a pokeball to the first pokemon that tastes your liking, but it resembles in the way of doing it.
+
+Breeding is an End-Game feature that allows to get offsprings of the desired species with the chance of inherit combat potential of both parents resulting in a more powerful pokemon.
+
+Damage is the process which a pokemon life is reduced.
+
+the base stats of the pokemon will be HP, attack, special attack, defense, special defense, speed. 
+
+base stats vary with species, this data will be pokedex based. 
+
+passive skill tree will vary based on the pokemon species, but at the dimensions of this, a better implementation would be a tree per primary type of the pokemon
+
+The game bosses are the Legendary pokemon, Included in the main storyline as well in optional side quests and special areas.
+
+Game world areas are leveled, and enemies between match the area level. some enemies will be more powerful than others as they have special traits or enhanced morphological attributes such as you
+
+players will have a pool of 6 customizable skill slots
+each one can hold a skill with his respective bonuses.
+
+each skill slot is assigned to a key binding. customizable. 
+
+pokemon have spawn chance, this means some pokemon will have more chance to spawn in an area
